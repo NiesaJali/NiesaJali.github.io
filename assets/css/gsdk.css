@@ -1237,7 +1237,7 @@ input.ct-red + span + label + span.switch-right {
     filter: alpha(opacity=100); }
 .navbar-transparent .navbar-nav > li > a:not(.btn),
 .navbar-transparent .navbar-nav > li > a.btn-default, [class*="navbar-ct"] .navbar-nav > li > a:not(.btn),
-[class*="navbar-ct"] .navbar-nav > li > div > > form > div > div > input.btn-default {
+[class*="navbar-ct"] .navbar-nav > li > div > form > div > div > input.btn-default {
   color: #2E8B57;
   border-color: #2E8B57;
   opacity: 0.8;
