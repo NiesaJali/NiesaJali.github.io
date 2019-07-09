@@ -369,6 +369,11 @@ img {
   border-radius: 50%;
 }
 
+.img-work{
+  width: 515px;
+  height: 380px;
+}
+
 hr {
   margin-top: 20px;
   margin-bottom: 20px;
