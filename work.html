@@ -87,12 +87,35 @@
  
 <div class="main">
     
-        
             <div class="row">
                 <div id="works">
-                    <div><img src="assets/img/img_ikcm.jpg" class="img-work"></div>
-                    <div><img src="assets/img/img_appasia.jpg" class="img-work"></div>
-                    <div><img src="assets/img/img_luco.jpg" class="img-work"></div>
+                    <div>
+                        <figure class="snip1104">
+                              <img src="assets/img/img_ikcm.jpg" alt="sample33" />
+                                  <figcaption>
+                                    <h2>IKCM<span> Sdn Bhd</span></h2>
+                                  </figcaption>
+                              <a href="#"></a>
+                        </figure>
+                     </div>
+                    <div>
+                        <figure class="snip1104">
+                              <img src="assets/img/img_appasia.jpg" alt="sample33" />
+                                  <figcaption>
+                                    <h2>AppAsia<span> Sdn Bhd</span></h2>
+                                  </figcaption>
+                              <a href="#"></a>
+                        </figure>
+                    </div>
+                    <div>
+                        <figure class="snip1104">
+                              <img src="assets/img/img_luco.jpg" alt="sample33" />
+                                  <figcaption>
+                                    <h2>Lucobyte Tech<span> Sdn Bhd</span></h2>
+                                  </figcaption>
+                              <a href="#"></a>
+                        </figure>
+                    </div>
                 </div>
             </div>
         
@@ -165,6 +188,11 @@
       interval: 4000
     });
       
-    
+    /* Demo purposes only */
+  $("figure").mouseleave(
+    function() {
+      $(this).removeClass("hover");
+    }
+  );
 </script>
 </html>
