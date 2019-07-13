@@ -1,5 +1,10 @@
-<form action="https://formspree.io/nisajalimahudi@gmail.com" method="POST">
-  <input type="text" name="name">
-  <input type="email" name="_replyto">
-  <input type="submit" value="Send">
-</form>
+<body>
+	<form name="input" method="POST" action="https://formspree.io/nisajalimahudi@gmail.com">
+	  Name: <input type="text" name="Name" placeholder="Your name">
+	  Email: <input type="email" name="_replyto" placeholder="Your email">
+	  Message: <textarea name="message" placeholder="Your message"></textarea>
+	  <input type="submit" name="Send">
+	  <input type="hidden" name="_subject" value="Your subject"/>
+	  <input type="hidden" name="_next" value="thanks.html">
+	</form>
+</body>
