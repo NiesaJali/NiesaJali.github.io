@@ -82,17 +82,26 @@
             <div class="row" style="background-color: #f9e6da">
                
                   <form name="input" method="POST" action="https://formspree.io/nisajalimahudi@gmail.com">
+                    <br>
                       <div>
-                        <label style="font-family: 'Josefin Sans', sans-serif;">Name: </label> <input type="text" name="Name" placeholder="Your name">
+                        <label class="col-sm-3" style="font-family: 'Josefin Sans', sans-serif;">Name: </label> <input style="font-family: 'Josefin Sans', sans-serif;" class="col-sm-3" type="text" name="Name" placeholder="Your name, please">
                       </div>
+                      <br>
+                      <br>
                       <div>
-                        <label style="font-family: 'Josefin Sans', sans-serif;">Email: </label> <input type="email" name="_replyto" placeholder="Your email">
+                        <label class="col-sm-3" style="font-family: 'Josefin Sans', sans-serif;">Email: </label> <input style="font-family: 'Josefin Sans', sans-serif;" class="col-sm-3" type="email" name="_replyto" placeholder="Your email, please">
                       </div>
+                      <br>
+                      <br>
                       <div>
-                        <label style="font-family: 'Josefin Sans', sans-serif;">Message: </label> <textarea name="message" placeholder="Your message"></textarea>
+                        <label class="col-sm-3" style="font-family: 'Josefin Sans', sans-serif;">Message: </label> <textarea style="font-family: 'Josefin Sans', sans-serif;" rows="8" class="col-sm-9" name="message" placeholder="And your message"></textarea>
+                      </div>
+                      <br>
+                      <br>
+                      <div>
+                        <input style="font-family: 'Josefin Sans', sans-serif;" type="submit" name="Send">
                       </div>
                       
-                      <input type="submit" name="Send">
                       <input type="hidden" name="_subject" value="Your subject"/>
                       <input type="hidden" name="_next" value="thanks.html">
                     </form>
