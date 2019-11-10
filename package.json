@@ -1,0 +1,25 @@
+{
+  "name": "NiesaJali.github.io",
+  "version": "1.0.0",
+  "description": "![Get Shit Done Kit](http://s3.amazonaws.com/creativetim_bucket/products/17/original/GSDK_thumbnail3.png?1431435570 \"Get Shit Done Kit\")",
+  "main": "index.js",
+  "dependencies": {
+    "react-scripts": "^3.2.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NiesaJali/NiesaJali.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/NiesaJali/NiesaJali.github.io/issues"
+  },
+  "homepage": "https://github.com/NiesaJali/NiesaJali.github.io#readme"
+}
