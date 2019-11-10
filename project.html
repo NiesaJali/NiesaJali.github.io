@@ -4,23 +4,36 @@
 	<meta charset="utf-8" />
 	<link rel="apple-touch-icon" sizes="76x76" href="assets/img/apple-icon.png">
 	<link rel="icon" type="image/png" href="assets/img/favicon.png">	
-	
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 	<title>Khairunnisa Jali</title>
-
 	<meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0' name='viewport' />
     <meta name="viewport" content="width=device-width" />
-	
     <link href="bootstrap3/css/bootstrap.css" rel="stylesheet" />
 	<link href="assets/css/gsdk.css" rel="stylesheet" />  
     <link href="assets/css/demo.css" rel="stylesheet" /> 
-    
     <!--     Font Awesome     -->
     <link href="bootstrap3/css/font-awesome.css" rel="stylesheet">
     <link href='http://fonts.googleapis.com/css?family=Grand+Hotel' rel='stylesheet' type='text/css'>
     <link href="https://fonts.googleapis.com/css?family=Pacifico&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Pacifico|Source+Code+Pro&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+    <style>
+        #works {
+              
+              height: 100%;
+              margin: 0 auto;
+              border: 1px solid #c3c3c3;
+              display: -webkit-flex; /* Safari */
+              -webkit-flex-wrap: wrap; /* Safari 6.1+ */
+              display: flex;
+              flex-wrap: wrap;
+        }
+
+        #works div {
+            width: 515px;
+            height: 380px;
+        }
+    </style>
 </head>
 <body>
 <div id="navbar-full">
@@ -63,60 +76,62 @@
     
     <div class='blurred-container'>
         <div class="motto">
-            <div style="font-family: 'Pacifico', cursive;"></div>
+            <div style="font-family: 'Pacifico', cursive; color: black">What I have been up to ?</div>
             <br>
-            <div style="font-family: 'Source Code Pro', monospace; font-size: 25px"></div>
+            <div style="font-family: 'Source Code Pro', monospace; font-size: 25px; color: black">Here is some of my recent work .</div>
         </div>
-        <div class="img-src" style="background-image: url('assets/img/bg_about.png')"></div>
-        <div class='img-src blur' style="background-image: url('assets/img/bg_about.png')"></div>
-    </div>
-    
-</div>     
-
+        <div class="img-src" style="background-image: url('assets/img/bg_work.png')"></div>
+        <div class='img-src blur' style="background-image: url('assets/img/bg_work.png')"></div>
+    </div>  
+  </div>     
 </div>
  
+<!-- start 1st main -->
 
 <div class="main">
     <div class="container tim-container">
         <div id="extras">
             <div class="space"></div>
             <div class="row">
-                <div class="col-md-7 col-md-offset-0 col-sm-10 col-sm-offset-1">
+                <div class="col-md-14 col-sm-12">
                     <div class="text-center">
-                      <div class="about">
-                        <img src="assets/img/profilepicture.jpg" alt="Circle Image" class="img-circle">
-                      </div>
+                      
+                        <img src="assets/img/e-market.PNG" width="100%" height="100%">
+
+                        <hr>
+                        <h1 class="text-center" style="font-family: 'Josefin Sans', sans-serif;">e-Marketplace
+                                
+                            <small class="subtitle">Shoot me an email to get to know more about this project .</small></h1>
                     </div>
                 </div>
-                <div class="col-md-5 col-sm-12">
-                                <h1 class="text-center" style="font-family: 'Josefin Sans', sans-serif;">About Me
-                                
-                                <small class="subtitle">Get to know me</small></h1>
-                                <hr>
-                                <p style="font-family: 'Josefin Sans', sans-serif;">
-                                I have 1 year experience as a programmer and a software engineer, and have worked at both large organizations and small startups company. 
-                                </p>
-                                <p style="font-family: 'Josefin Sans', sans-serif;">
-                                    I am looking for a contributor role where I can improve my existing skills, gain experience with new knowledge and project management.
-                                </p>
-                                <p style="font-family: 'Josefin Sans', sans-serif;">
-                                A little more about me, I have succesfully gained the Certified Professional for Requirements Engineering (CPRE) Foundation Level on 2015.                                  
-                                </p>
-                                <p style="font-family: 'Josefin Sans', sans-serif;">
-                                Wanted to know more about me, shoot me an email and lets get in touch !                                 
-                                </p>
+            </div>
+        </div>  
+    </div>
 
+<!-- end 1st main -->
+
+<!-- start 2nd main -->
+<div class="main">
+    <div class="container tim-container">
+        <div id="extras">
+            <div class="space"></div>
+            <div class="row">
+                <div class="col-md-14 col-sm-12">
+                    <div class="text-center">
+                      
+                        <img src="assets/img/todoist.PNG" width="100%" height="100%">
+
+                        <hr>
+                        <h1 class="text-center" style="font-family: 'Josefin Sans', sans-serif;">todoist clone
+                                
+                            <small class="subtitle">Shoot me an email to get to know more about this project .</small></h1>
+                      
+                    </div>
                 </div>
             </div>
-        </div>
-    <!--     end extras -->    
+        </div>  
     </div>
-<!-- end container -->
-<div class="space-30"></div>
-</div>
-
-
-<!-- end main -->
+<!-- end 2nd main -->
 
 <div class="parallax-pro">
     <div class="img-src" style="background-image: url('assets/img/footer.jpg')">
@@ -182,6 +197,11 @@
       interval: 4000
     });
       
-    
+    /* Demo purposes only */
+  $("figure").mouseleave(
+    function() {
+      $(this).removeClass("hover");
+    }
+  );
 </script>
 </html>
