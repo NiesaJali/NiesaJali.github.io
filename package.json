@@ -4,7 +4,7 @@
   "description": "![Get Shit Done Kit](http://s3.amazonaws.com/creativetim_bucket/products/17/original/GSDK_thumbnail3.png?1431435570 \"Get Shit Done Kit\")",
   "main": "index.js",
   "dependencies": {
-    "react-scripts": "^3.2.0"
+    "react-scripts": "^5.0.1"
   },
   "devDependencies": {},
   "scripts": {
